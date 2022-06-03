@@ -9,11 +9,9 @@
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    max-width: 1200px;
     gap: 5px;
     justify-content: space-evenly;
     background-color: lightgreen;
-    margin: auto;
 }
 
 
@@ -30,7 +28,7 @@
         flex-basis: 100%;
     }
 }
-@media (max-width: 750px){
+@media (min-width: 351px){
     .child {
         flex-basis: 49%;
     }
